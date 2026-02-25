@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+}
+
+.header div{
+    height: 50px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    background-color: white;
+    border: 1px solid rgb(222, 203, 203);
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header div:hover{
+    background-color: rgb(252, 247, 233);
+}
+
+.header div:active{
+    background-color: rgb(255, 187, 0);
+    color:white
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+}
